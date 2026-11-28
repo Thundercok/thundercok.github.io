@@ -8,7 +8,7 @@
         <meta name="theme-color" content="#09090b" />
         <meta name="color-scheme" content="dark" />
         <meta property="og:title" content="Huy Huỳnh — Computer Science & AI" />
-        <meta property="og:description" content="AI & Operations Research Engineer. Researching hybrid neural solvers for VRPTW and constraint-guided Document AI." />
+        <meta property="og:description" content="Applied AI and research engineering: learning-augmented optimization, structured reasoning, and reliable local-first systems." />
         <meta property="og:type" content="website" />
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>λ</text></svg>" />
 
@@ -131,7 +131,7 @@
                                 <div class="work-content">
                                     <div class="work-role">B.S. in Computer Science · <span class="company">Ton Duc Thang University (TDTU)</span></div>
                                     <p class="work-desc">
-                                        <strong>Recipient of TDTU Entrance Scholarship.</strong> Thesis research on VRPTW Optimization via Hybrid GNN-DDQN+ALNS, supervised by TS. Hồ Thị Linh. Benchmarked across 62+ Solomon & Gehring-Homberger instances under strict cold-start reproducibility.
+                                        <strong>Recipient of TDTU Entrance Scholarship.</strong> Thesis research on VRPTW Optimization via Hybrid GNN-DDQN+ALNS, supervised by TS. Hồ Thị Linh. Evaluated on Solomon and Gehring–Homberger benchmark instances with reproducible cold-start protocols.
                                     </p>
                                     <div class="tech-tags">
                                         <span class="tech-tag">PyTorch</span>
@@ -148,7 +148,7 @@
                                 <div class="work-content">
                                     <div class="work-role">AI & Computer Vision Coursework · <span class="company">Chinese Culture University (CCU)</span></div>
                                     <p class="work-desc">
-                                        Completed specialized academic coursework in Taipei, Taiwan, mastering foundational and advanced Artificial Intelligence and Computer Vision techniques.
+                                        Completed an academic exchange in Taipei, Taiwan, with coursework in Artificial Intelligence and Computer Vision.
                                     </p>
                                     <div class="tech-tags">
                                         <span class="tech-tag">Computer Vision</span>
@@ -222,6 +222,44 @@
                                 </div>
                             </div>
 
+                            <!-- PROJECT: Verified Document Intake -->
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3 class="project-title">verified-document-intake</h3>
+                                    <div class="project-links">
+                                        <a href="https://github.com/Thundercok/verified-document-intake" target="_blank" rel="noopener" class="project-ext-link">code ↗</a>
+                                    </div>
+                                </div>
+                                <p class="project-desc">
+                                    On-device PDF and OCR intake for administrative documents, combining field-level uncertainty, evidence checks, and selective abstention. The repository reports real-document audits, including failure cases and coverage limits.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Document AI</span>
+                                    <span class="tech-tag">OCR</span>
+                                    <span class="tech-tag">Uncertainty</span>
+                                    <span class="tech-tag">Selective Prediction</span>
+                                </div>
+                            </div>
+
+                            <!-- PROJECT: Bounded Reasoning Harness -->
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3 class="project-title">bounded-reasoning-harness</h3>
+                                    <div class="project-links">
+                                        <a href="https://github.com/Thundercok/bounded-reasoning-harness" target="_blank" rel="noopener" class="project-ext-link">code ↗</a>
+                                    </div>
+                                </div>
+                                <p class="project-desc">
+                                    Controlled evaluation of small software-engineering agents under strict reasoning, tool-call, and runtime budgets, with deterministic pre-submit patch verification. Reports a 16-task ablation panel and explicit limitations.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Small Language Models</span>
+                                    <span class="tech-tag">Agent Evaluation</span>
+                                    <span class="tech-tag">Verification</span>
+                                    <span class="tech-tag">Budgeted Inference</span>
+                                </div>
+                            </div>
+
                             <!-- PROJECT 3: multimodal-intent-inference -->
                             <div class="project-card">
                                 <div class="project-header">
@@ -231,7 +269,7 @@
                                     </div>
                                 </div>
                                 <p class="project-desc">
-                                    Context-conditioned multimodal intent inference for hands-free desktop interaction on Apple Silicon. Focuses on low-latency tracking and adaptive event dispatching.
+                                    GestureFlow: native hands-free macOS interaction using Apple Vision hand tracking, deterministic gesture arbitration, and an experimental desktop-context fusion path.
                                 </p>
                                 <div class="project-tech">
                                     <span class="tech-tag">Swift</span>
@@ -244,13 +282,13 @@
                             <!-- PROJECT 4: CHUOT Selective Delegation Agent -->
                             <div class="project-card">
                                 <div class="project-header">
-                                    <h3 class="project-title">selective-delegation-agent (CHUOT)</h3>
+                                    <h3 class="project-title">Deterministic Local Assistant (RAT)</h3>
                                     <div class="project-links">
-                                        <a href="https://github.com/Thundercok/selective-delegation-agent" target="_blank" rel="noopener" class="project-ext-link">code ↗</a>
+                                        <a href="https://github.com/Thundercok/deterministic-local-assistant" target="_blank" rel="noopener" class="project-ext-link">code ↗</a>
                                     </div>
                                 </div>
                                 <p class="project-desc">
-                                    Local-first agent architecture featuring deterministic guards and selective cloud escalation to balance execution latency, privacy boundaries, and task completion.
+                                    A standalone local-first macOS assistant with hybrid search, on-device document intelligence, a desktop interface, headless CLI, and optional MCP integration.
                                 </p>
                                 <div class="project-tech">
                                     <span class="tech-tag">Local LLMs</span>
@@ -345,6 +383,14 @@
                     <h2 class="section-title">Research & Tools</h2>
                     <div class="section-body">
                         <div class="writings-list">
+                            <a href="https://github.com/Thundercok/structured-multi-step-reasoning" target="_blank" rel="noopener" class="writing-item">
+                                <span class="writing-format">REPO</span>
+                                <div class="writing-info">
+                                    <div class="writing-title">Structured Multi-Step Reasoning</div>
+                                    <div class="writing-desc">Experimental research on whether intermediate reasoning steps causally influence final predictions, using controlled counterfactual interventions on Qwen3-8B.</div>
+                                </div>
+                                <span class="writing-arrow">↗</span>
+                            </a>
                             <a href="papers/VRPTW-VI.pdf" target="_blank" rel="noopener" class="writing-item">
                                 <span class="writing-format">PDF</span>
                                 <div class="writing-info">
